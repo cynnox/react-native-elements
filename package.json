@@ -1,6 +1,5 @@
 {
   "name": "rneui",
-  "version": "0.0.1",
   "displayName": "React Native Elements UI Toolkit",
   "private": true,
   "packageManager": "yarn@3.2.4",
