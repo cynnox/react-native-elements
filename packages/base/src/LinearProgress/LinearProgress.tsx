@@ -156,7 +156,7 @@ export const LinearProgress: RneFunctionComponent<LinearProgressProps> = ({
           testID="RNE__LinearProgress_Progress"
           style={{
             flex: 1,
-            width: width * clamp(value || 0),
+            width: width * value || 1,
             backgroundColor: tintColor as string,
           }}
         />
